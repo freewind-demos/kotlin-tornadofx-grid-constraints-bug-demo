@@ -1,6 +1,18 @@
-Kotlin TornadoFx (JavaFx) Demo
-===============================
+Kotlin TornadoFx Grid Constraints Bug(Feature) Demo
+====================================================
 
-A simple "Hello world" demo for TornadoFX.
+Seems like some properties of `gridpaneConstraints` doesn't work:
 
-Run `Hello.kt` from your IDE.
+```
+columnRowIndex(?, ?)
+rowIndex = ?
+columnIndex = ?
+```
+
+Update: OK, that's not really bugs. They just can't work with `row`. The demo is updated.
+
+Run
+---
+
+Open `Hello.kt` in your IDE, and see the gui and code.
+
